@@ -1,44 +1,24 @@
-# Le défi
-Ce défi est tout à fait unique, de sorte que nous utiliserons des méthodes de tableau intégrées vraiment utiles pour manipuler les tableaux fournis. Trois tableaux sont fournis et chacun est livré avec 3 pièces à résoudre. Dans le premier tableau:
-- Partie 1 - Trouver tous les utilisateurs de plus de 24 ans
-- Partie 2 - Trouvez l'âge total de tous les utilisateurs
-- Partie 3 - Liste de toutes les codeuses féminines
+# todolist
+## Contexte
+Dans ce projet, vous allez utiliser ce que vous avez appris et le mettre en pratique dans une démo, en utilisant JavaScript et CSS pour créer une application Todolist fonctionnelle. 
 
-Dans le deuxième tableau:
+## Déroulement
+Pour commencer, vous avez un document HTML & CSS que vous n'allez pas toucher. Le fichier que vous allez améliorer est le fichier `todo.js`. Le fichier contient :
 
-- Partie 1 - Liste de tous les utilisateurs aux États-Unis par ordre croissant
-- Partie 2 - Trier tous les utilisateurs par âge
-- Partie 3 - Liste de toutes les codeuses féminines
+- Des variables contenant les différents éléments DOM que nous avons besoin pour finaliser l'application.
 
-Dans le troisième tableau:
+- Une fonction `start` pour l'alert et le popup qui va etre afficher (time control)
 
-- Partie 1 - Trouvez l'âge total des codeurs masculins de moins de 25 ans
-- Partie 2 - Liste de tous les codeurs masculins de plus de 30 ans
-- Partie 3 - Trouvez l'âge total de tout le monde dans les texass, newieyork et vegzas combinés.
+- Une fonction `create` pour la création dynamique du POPUP
 
-Complétez ces problèmes en utilisant n'importe quelle méthode de tableau de la meilleure façon possible. Les méthodes utiles comprennent:
-- ```.map()```
-- ```.filter()```
-- ```.find()```
-- ```.replace()```
-- ```.reduce()```
-- ```forEach()```
+- Une fonction anonyme `todo` pour l'ajoute des tâches dans la liste
 
-***Notez que vous pouvez écrire vos résultats dans le DOM ou même vous connecter à la console, selon ce qui vous convient.***
+- Une fonction  `onetime` pour contrôler le nombre des cliques
 
-# Exigence
-Ce défi peut être complété en utilisant n'importe quelle technique ou méthode. Cependant, essayez de résoudre complètement chaque partie en aussi peu de lignes que possible en utilisant des fonctions.
- 
-# Objectifs de ce défi
-À la fin de ce défi, vous devriez être en mesure de:
-- Apprenez les concepts de programmation fonctionnelle de base et l'immuabilité
-- Utilisez des méthodes de tableau intégrées pour trier, filtrer et parcourir les tableaux.
-- Choisissez les bonnes méthodes et alternatives pour analyser les données dans un tableau.
- 
-# Ressources
-Pour commencer rapidement, un [code de base](https://github.com/imanegannaoui/JavaScript_Exercices/tree/Challenge) contenant les tableaux requis est fourni. Ces tableaux à utiliser contiennent des objets avec des données dans des paires clé-valeur.
-Cloner ce code de base pour commencer
- 
- 
- 
+- Des `click event listner` (**à remplire**) pour ajouter les tâches à faire dans la liste 
 
+- Une fonction `retrieve` pour enlever une tache de la liste
+
+- Un `keyup event listner` (**à remplire**) pour gérer le saisie et la recherche des mots clés
+
+Le résultat final sera une `todolist` fonctionnel permettant d'`ajouter`, `rechercher` et `supprimer` des tâche à faire avec un contrôle de champ vide via un `popup`.
